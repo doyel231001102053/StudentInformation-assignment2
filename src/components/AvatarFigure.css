@@ -1,0 +1,21 @@
+.avatar-figure {
+  display: block;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: #e8edf4;
+  line-height: 0;
+}
+
+.avatar-figure svg {
+  display: block;
+}
+
+.avatar-figure__bg {
+  fill: #e8edf4;
+}
+
+.avatar-figure__shape {
+  fill: #64748b;
+}
